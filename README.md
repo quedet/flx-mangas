@@ -82,15 +82,6 @@ This platform will allow users to access and enjoy their favorites anime and int
    * Data transmission should be encrypted using HTTPS
    * User password and personal information should be stored securely
 ## Architecture and Design
-### User Flow
-#### Step 01: User Authentication
-![Login your account](/showcase/design/user flow/Log into your account.jpg "Login")
-#### Step 02: User Registration
-![Login your account](/showcase/design/user flow/Register with our product.jpg "Signup")
-#### Step 03: Password Recovery
-![Login your account](/showcase/design/user flow/Log into your account.jpg "Login")
-
-### Interfaces Design
 
 ### Technologies Used
 
@@ -100,3 +91,11 @@ This platform will allow users to access and enjoy their favorites anime and int
 
 **Database Layer**: PostgreSQL will be used as the database management system. Redis and memcached will be used for caching purpose.
 
+### User Flow
+#### Step 01: User Authentication
+![Login your account](showcase/design/user_flow/Log_into_your_account.jpg)
+#### Step 02: User Registration
+![Login your account](showcase/design/user_flow/Register_with_our_product.jpg)
+#### Step 03: Password Recovery
+
+### Interfaces Design
