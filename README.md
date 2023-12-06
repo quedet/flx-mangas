@@ -95,7 +95,8 @@ This platform will allow users to access and enjoy their favorites anime and int
 #### Step 01: User Authentication
 ![Login your account](showcase/design/user_flow/Log_into_your_account.jpg)
 #### Step 02: User Registration
-![Login your account](showcase/design/user_flow/Register_with_our_product.jpg)
+![Create an account](showcase/design/user_flow/Register_with_our_product.jpg)
 #### Step 03: Password Recovery
+![Reset your password](showcase/design/user_flow/Password_Recovery.jpg)
 
 ### Interfaces Design
