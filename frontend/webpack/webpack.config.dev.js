@@ -25,6 +25,11 @@ module.exports = merge(common, {
     devMiddleware: {
       writeToDisk: true,
     },
+    watchFiles: [
+        Path.join(__dirname, '../../templates/**/*.html'),
+        Path.join(__dirname, '../../apps/**/*.py'),
+        Path.join(__dirname, '../../mangas/**/*.py')
+    ]
   },
   plugins: [
     new Webpack.DefinePlugin({
