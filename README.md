@@ -103,5 +103,5 @@ This platform will allow users to access and enjoy their favorites anime and int
 
 ### Site Map
 #### Registration and Authentication
-![Reset your password](showcase/design/sitemap/User Registration and Authentication.jpg)
+![Reset your password](showcase/design/sitemap/User_Registration_and_Authentication.jpg)
 
