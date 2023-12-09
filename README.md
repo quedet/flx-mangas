@@ -91,6 +91,10 @@ This platform will allow users to access and enjoy their favorites anime and int
 
 **Database Layer**: PostgreSQL will be used as the database management system. Redis and memcached will be used for caching purpose.
 
+### Database Design
+
+We'll include database design here.
+
 ### Interfaces Design
 
 ### User Flow
@@ -102,10 +106,11 @@ This platform will allow users to access and enjoy their favorites anime and int
 ![Reset your password](showcase/design/user_flow/Password_Recovery.jpg)
 
 ### Site Map
-#### Registration and Authentication
-![Reset your password](showcase/design/sitemap/User_Registration_and_Authentication.jpg)
+![Sitemap](showcase/design/sitemap/sitemapjpg.jpg)
 
 ### Wireframes
+For brievety we'll only include wireframe for mobile device.
+
 #### Step 01: User Authentication
 ![Login your account](showcase/wireframes/mobile/registration/Login.jpg)
 
