@@ -1,0 +1,16 @@
+{% load webpack_loader static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    {% stylesheet_pack 'app' %}
+    {% javascript_pack 'app' attrs='defer' %}
+    {% block extra_css %}{% endblock %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+{% block content %}{% endblock %}
+{% block extra_js %}{% endblock %}
+</body>
+</html>

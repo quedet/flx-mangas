@@ -105,3 +105,14 @@ This platform will allow users to access and enjoy their favorites anime and int
 #### Registration and Authentication
 ![Reset your password](showcase/design/sitemap/User_Registration_and_Authentication.jpg)
 
+### Wireframes
+#### Step 01: User Authentication
+![Login your account](showcase/wireframes/mobile/registration/Login.jpg)
+
+#### Step 02: User Registration
+![Create an account](showcase/wireframes/mobile/registration/Signup_Creation.jpg)
+![Login your account](showcase/wireframes/mobile/registration/Signup_Profile_Setup.jpg) |
+
+#### Step 03: Password Recovery
+![Login your account](showcase/wireframes/mobile/registration/Forgot_password.jpg)
+![Login your account](showcase/wireframes/mobile/registration/Reset_password.jpg)
