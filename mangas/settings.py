@@ -39,7 +39,10 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "webpack_boilerplate",
     "crispy_forms",
-    "crispy_tailwind"
+    "crispy_tailwind",
+    "guardian",
+    "apps.accounts",
+    "apps.core"
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
@@ -76,6 +79,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "mangas.wsgi.application"
 
+AUTHENTICATION_BACKENDS = [
+    "django.contrib.auth.backends.ModelBackend",
+    "guardian.backends.ObjectPermissionBackend"
+]
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
