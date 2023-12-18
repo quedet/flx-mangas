@@ -47,8 +47,8 @@ This platform will allow users to access and enjoy their favorites anime and int
 * **Administrators**: Manage user accounts, content moderation, and platform settings.
 
 ## Specific Requirements
-### Functional Requirements
 
+### Functional Requirements
 1. User Authentication and Account Management
    * Users can register with a valid email or username
    * Passwords must meet security standards.
@@ -69,6 +69,8 @@ This platform will allow users to access and enjoy their favorites anime and int
 6. Search and Recommendation Engine
    * Advanced search functionality for finding specific content.
    * Recommendation engine suggests content based on user behavior.
+
+For more information, [go to](/showcase/design/use_cases).
 
 ### Non-Functional Requirements
 
